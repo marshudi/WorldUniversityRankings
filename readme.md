@@ -6,7 +6,7 @@ This project focuses on analyzing the World University Rankings dataset, sourced
 
 In this project, we've performed a comprehensive analysis of the World University Rankings dataset. The analysis comprises several key steps:
 
-1. **Data Import and Setup**: We started by importing the dataset (`data.csv`) and essential libraries for data analysis. Key libraries used include Pandas for data manipulation, NumPy for numerical operations, and scikit-learn for machine learning-related metrics.
+1. **Data Import and Setup**: We started by importing the dataset (`WorldUniversityRankings.csv`) and essential libraries for data analysis. Key libraries used include Pandas for data manipulation, NumPy for numerical operations, and scikit-learn for machine learning-related metrics.
    
 2. **Data Preprocessing**: We conducted data preprocessing to address issues such as missing values and outliers. This step ensures that the data is clean and suitable for analysis.
 
@@ -20,7 +20,7 @@ In this project, we've performed a comprehensive analysis of the World Universit
 
 The project's structure includes the following files and folders:
 
-- `data.csv`: The original dataset file.
+- `WorldUniversityRankings.csv`: The original dataset file.
 - `Assignment.ipynb`: Jupyter Notebook file containing data import and preprocessing steps. 
 - `Assignment.ipynb`: Jupyter Notebook file with exploratory data analysis.
 - `Assignment.ipynb`: Jupyter Notebook file for feature selection.
