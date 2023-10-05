@@ -1,4 +1,4 @@
-# World University Rankings Analysis
+# World University Rankings Analysis 2023
 
 This project focuses on analyzing the World University Rankings dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/mylesoneill/world-university-rankings?select=cwurData.csv).
 
