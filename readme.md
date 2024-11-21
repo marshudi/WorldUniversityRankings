@@ -1,74 +1,101 @@
-# World University Rankings Analysis 
 
-This project focuses on analyzing the World University Rankings dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/mylesoneill/world-university-rankings?select=cwurData.csv).
- 
+# World University Rankings Analysis
+
+This project explores the **World University Rankings** dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/mylesoneill/world-university-rankings?select=cwurData.csv), to uncover insights about global institutions, their rankings, and their performance metrics.
+
+---
+
 ## Overview
 
-In this project, we've performed a comprehensive analysis of the World University Rankings dataset. The analysis comprises several key steps:
+The analysis focuses on the following key steps:
 
-1. **Data Import and Setup**: We started by importing the dataset (`WorldUniversityRankings.csv`) and essential libraries for data analysis. Key libraries used include Pandas for data manipulation, NumPy for numerical operations, and scikit-learn for machine learning-related metrics.
-   
-2. **Data Preprocessing**: We conducted data preprocessing to address issues such as missing values and outliers. This step ensures that the data is clean and suitable for analysis.
+1. **Data Import and Setup**: 
+   - Imported the dataset (`WorldUniversityRankings.csv`) and utilized essential libraries for analysis, including `Pandas`, `NumPy`, and `scikit-learn`.
 
-3. **Exploratory Data Analysis (EDA)**: We used data visualization techniques to gain insights into the dataset. Matplotlib and Seaborn were employed for creating various plots and charts to help us better understand the data.
+2. **Data Preprocessing**: 
+   - Cleaned the dataset by handling missing values and outliers, ensuring accurate and reliable analysis.
 
-4. **Feature Selection**: We utilized feature selection techniques to identify the most relevant features for our analysis. This helps improve the efficiency and accuracy of subsequent machine learning models. Feature selection methods include F-classification and the Exhaustive Feature Selector.
+3. **Exploratory Data Analysis (EDA)**: 
+   - Visualized trends and patterns using `Matplotlib` and `Seaborn`, offering insights into the relationships between variables.
 
-5. **Machine Learning Models**: We applied machine learning models to the dataset. This includes using models such as Decision Tree Classifier, Extra Trees Classifier, and Linear Regression to make predictions or classify data.
+4. **Feature Selection**: 
+   - Identified key features using techniques like F-classification and Exhaustive Feature Selector to enhance the performance of machine learning models.
+
+5. **Machine Learning Models**: 
+   - Applied models such as `Decision Tree Classifier`, `Extra Trees Classifier`, and `Linear Regression` to classify data and predict outcomes.
+
+---
+
+## Key Insights
+
+### 1. Correlation Between Variables
+- Visualized correlations to understand relationships between different features.
+![Correlation](https://github.com/marshudi/WorldUniversityRankings/assets/76883519/a9697ed3-bdd8-4d11-a303-588370092f34)
+
+### 2. Negative Correlation Between `world_rank` and `score`
+- Observed a strong negative correlation: as the rank improves (lower number), the score increases.
+![Negative Correlation](https://github.com/marshudi/WorldUniversityRankings/assets/76883519/cb723567-882a-4a67-b1bc-daf6f01f469d)
+
+### 3. Distribution of Institutions by Country
+- The United States has the most institutions in the dataset.
+![Institutions by Country](https://github.com/marshudi/WorldUniversityRankings/assets/76883519/7432f9c8-49a9-4ec3-b04f-d50d17137c4a)
+![Institutions by Country](https://github.com/marshudi/WorldUniversityRankings/assets/76883519/f8de641f-7230-4c4b-a5a7-e5a3d9afb9f3)
+
+### 4. Distribution of Institutions by Score
+- Most institutions have scores in the range of 25-50.
+![Institutions by Score](https://github.com/marshudi/WorldUniversityRankings/assets/76883519/2e41b5b8-1164-46f0-83bf-ba8b9bed0e98)
+
+---
 
 ## Project Structure
 
-The project's structure includes the following files and folders:
+The project includes the following files and folders:
 
-- `WorldUniversityRankings.csv`: The original dataset file.
-- `Assignment.ipynb`: Jupyter Notebook file containing data import and preprocessing steps. 
-- `Assignment.ipynb`: Jupyter Notebook file with exploratory data analysis.
-- `Assignment.ipynb`: Jupyter Notebook file for feature selection.
-- `Assignment.ipynb`: Jupyter Notebook file for applying machine learning models.
+- **`WorldUniversityRankings.csv`**: Original dataset file.
+- **`Assignment.ipynb`**: Jupyter Notebook files for:
+  - Data import and preprocessing.
+  - Exploratory Data Analysis (EDA).
+  - Feature selection.
+  - Machine learning model implementation.
+
+---
 
 ## Getting Started
 
-To explore the project and its analysis, you can refer to the Jupyter Notebook files mentioned above. Each notebook contains detailed code, explanations, and visualizations.
+1. Clone the repository and navigate to the project directory.
+2. Install the required dependencies (see below).
+3. Open the Jupyter Notebook files to explore the analysis steps and results.
 
-## Usage
-
-Feel free to use this project and its findings as a reference for your own data analysis and machine learning tasks. You can adapt and extend the code to suit your specific requirements.
+---
 
 ## Dependencies
 
-Ensure you have the following Python libraries installed to run the code successfully:
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- scikit-learn
-- mlxtend
-- plotly
+Make sure you have the following Python libraries installed:
+- `Pandas`
+- `NumPy`
+- `Matplotlib`
+- `Seaborn`
+- `scikit-learn`
+- `mlxtend`
+- `plotly`
+
+Install them using:
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn mlxtend plotly
+
+
+---
+
+## Usage
+
+- Use this project to analyze university rankings, identify trends, and practice feature selection and machine learning techniques.
+- Adapt the code to explore additional datasets or apply new algorithms.
+
+---
 
 ## Acknowledgments
 
-- The dataset used in this project is sourced from Kaggle, and we appreciate the contributions of the Kaggle community.
+- Dataset: [Kaggle - World University Rankings](https://www.kaggle.com/datasets/mylesoneill/world-university-rankings?select=cwurData.csv)
+- Tools: Python, Jupyter Notebook, and various data analysis libraries.
 
-Please explore the provided notebooks for a more detailed view of the analysis and results.
-
-## Visualize correlation between variables
-![image](https://github.com/marshudi/WorldUniversityRankings/assets/76883519/a9697ed3-bdd8-4d11-a303-588370092f34)
-
-## negative Correlation between world_rank & score
-
-![image](https://github.com/marshudi/WorldUniversityRankings/assets/76883519/cb723567-882a-4a67-b1bc-daf6f01f469d)
-
-## Group the data by country and count the number of institutions
-### as we can see the most institution are from the USA 
-
-![image](https://github.com/marshudi/WorldUniversityRankings/assets/76883519/7432f9c8-49a9-4ec3-b04f-d50d17137c4a)
-
-![image](https://github.com/marshudi/WorldUniversityRankings/assets/76883519/f8de641f-7230-4c4b-a5a7-e5a3d9afb9f3)
-
-
-## Group the data by score and count the number of institution
-### as you can see most institution have the score of around 25-50
-
-![image](https://github.com/marshudi/WorldUniversityRankings/assets/76883519/2e41b5b8-1164-46f0-83bf-ba8b9bed0e98)
-
-
+Feel free to explore and extend this project for your own analysis needs. Contributions are welcome!
