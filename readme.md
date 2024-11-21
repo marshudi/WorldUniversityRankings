@@ -82,7 +82,7 @@ Make sure you have the following Python libraries installed:
 Install them using:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn mlxtend plotly
-
+```
 
 ---
 
